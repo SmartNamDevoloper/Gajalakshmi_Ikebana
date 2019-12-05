@@ -25,9 +25,9 @@
   margin-bottom: 0;
 }
 
-.jumbotron-heading {
+.title{
   font-weight: 300;
-  margin: 2rem;
+  padding: 6rem 4rem;
 }
 
 .jumbotron .container {
@@ -40,13 +40,17 @@
 .text-center{
 padding: 2rem;
 border-bottom: 3rem;
+display: inline;
 }
 .background_image{
+  /* Commented to accomodate resizing in small screen */
   /* display: inline-block; */
-  display: flex;
+  display: inline;
   align-items:center;
   vertical-align: middle;
+
 }
+
 
 
 .jumbotron p{
